@@ -33,7 +33,7 @@ function desencriptar(){
 function copiar(){
 	var contenido = document.querySelector("#txt");
 	contenido.select();
-	document.execCommand("cut")
+	document.execCommand("copy")
 	alert("Su mensaje fue copiado")
 }
 
