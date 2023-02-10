@@ -179,3 +179,37 @@ body{
     border: 1.5px solid #D8DFE8;
     color: #D8DFE8;
 }
+
+@media (max-width: 720px) {
+  .contenedor {
+    width: 100%;
+  }
+
+  .proceso {
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+
+  .proceso input {
+    margin-left: 0;
+  }
+
+  .resultado {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .pautas {
+    width: 100%;
+  }
+
+  .buttons {
+    width: 100%;
+  }
+
+  .buttonCopiar {
+    width: 100%;
+  }
+}
